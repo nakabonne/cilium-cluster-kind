@@ -1,6 +1,5 @@
 # cilium-cluster-kind
 
-
 ## Prerequisite
 
 - Kind (version >= v0.7.0): https://kind.sigs.k8s.io/docs/user/quick-start/#installation
@@ -25,4 +24,10 @@ cilium install
 
 ```
 cilium hubble enable --ui
+```
+
+## Apply network policy
+
+```
+kubectl apply -f allow-empire-in-namespace.yaml
 ```
