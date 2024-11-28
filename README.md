@@ -31,3 +31,9 @@ cilium hubble enable --ui
 ```
 kubectl apply -f allow-empire-in-namespace.yaml
 ```
+
+## Clean up
+
+```
+kind delete cluster
+```
